@@ -102,7 +102,7 @@ body {
   border-radius: 5px;
 }
 header {
-  background: url(../top/headerBg.png);
+  background: url(headerBg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -359,7 +359,7 @@ h1 {
 /*finish main*/
 /*start footer*/
 footer {
-  background: url(../top/footer_bg.png);
+  background: url(footer_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
