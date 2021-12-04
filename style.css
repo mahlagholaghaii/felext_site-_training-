@@ -1,12 +1,10 @@
 .mx-auto {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
-
 .m-0 {
   margin: 0 !important;
 }
-
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -295,10 +293,6 @@ h1 {
   border-top: 8px solid transparent;
   height: 320px;
 }
-
-.plan-img {
-}
-
 .plan-title {
   font-family: "Nunito Bold";
 }
