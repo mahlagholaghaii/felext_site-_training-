@@ -347,7 +347,7 @@ h1 {
 
 /*start footer*/
 footer {
-  background: url("../images/footer_bg.png");
+  background: url("footer_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
