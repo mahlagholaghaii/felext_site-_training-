@@ -1,3 +1,4 @@
+/* General classes */
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
@@ -8,54 +9,45 @@
 .mb-0 {
   margin-bottom: 0 !important;
 }
-
 .mt-0 {
   margin-top: 0 !important;
 }
-
 .p-0 {
   padding: 0 !important;
 }
-
 .pb-0 {
   padding-bottom: 0 !important;
 }
-
 .pt-0 {
   padding-top: 0 !important;
 }
-
 .w-100 {
   width: 100% !important;
 }
-
 .d-none {
   display: none !important;
 }
-
 .d-block {
   display: block !important;
 }
-
 .d-flex {
   display: flex !important;
 }
-
 .text-white {
   color: #fff !important;
 }
-
 .align-items-center {
   align-items: center !important;
 }
-
 .justify-content-center {
   justify-content: center !important;
 }
-
 .justify-content-between {
   justify-content: space-between !important;
 }
+
+/* General classes */
+
 @font-face {
   font-family: Nunito-Bold;
   src: url(../top/Nunito-Bold.ttf);
@@ -159,7 +151,8 @@ h1 {
   cursor: pointer;
   display: none !important;
 }
-/*finish header*/
+/* end header*/
+
 /*start main*/
 .section-title {
   font-family: "Nunito ExtraBold";
@@ -350,7 +343,8 @@ h1 {
   display: block;
   width: 152px;
 }
-/*finish main*/
+/*end main*/
+
 /*start footer*/
 footer {
   background: url(footer_bg.png);
@@ -367,4 +361,4 @@ footer {
 .footer-menu__link {
   color: #fff;
 }
-/*finish footer*/
+/*end footer*/
