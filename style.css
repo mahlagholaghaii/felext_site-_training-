@@ -347,18 +347,67 @@ h1 {
 
 /*start footer*/
 footer {
-  background: url(footer_bg.png);
+  background: url("../images/footer_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 70vh;
   color: #fff;
+  padding: 140px 0 40px 0;
+  background-position: center top;
+}
+footer p {
+  line-height: 28px;
+}
+footer .footer-bottom > div:last-child > a {
+  line-height: 28px;
+}
+.footer-list-title {
+  text-transform: uppercase;
 }
 .footer-menu {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
-.footer-menu__link {
-  color: #fff;
+.footer-menu-item {
+  margin-bottom: 8px;
+}
+.accept {
+  background-color: #2d355d;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  width: 70px;
+  height: 35px;
+}
+.accept-img-35 {
+  width: 35% !important;
+}
+.accept img {
+  width: 65%;
+}
+.footer-bottom {
+  margin-top: 60px;
+  align-items: end;
+}
+.social {
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.social-item {
+  margin-right: 10px;
+}
+.footer-logo {
+  margin-bottom: 15px;
+}
+.br-1::after {
+  content: " ";
+  border-right: 1px solid #fff;
+  margin: 0 15px;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 /*end footer*/
